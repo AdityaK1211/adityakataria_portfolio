@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experience | Aditya Kataria</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-header"><h2 id="logo-name">AK • Portfolio</h2></div>
+    <nav>
+      <ul>
+        <li><a href="index.html"><span class="i i-home"></span>Home</a></li>
+        <li><a href="about.html"><span class="i i-user"></span>About</a></li>
+        <li><a class="active" href="experience.html"><span class="i i-brief"></span>Experience</a></li>
+        <li><a href="education.html"><span class="i i-cap"></span>Education</a></li>
+        <li><a href="skills.html"><span class="i i-tools"></span>Skills</a></li>
+        <li><a href="projects.html"><span class="i i-box"></span>Projects</a></li>
+        <li><a href="publications.html"><span class="i i-doc"></span>Publications</a></li>
+        <li><a href="certifications.html"><span class="i i-badge"></span>Certifications</a></li>
+        <li><a href="achievements.html"><span class="i i-star"></span>Achievements</a></li>
+        <li><a href="positions.html"><span class="i i-people"></span>Positions</a></li>
+        <li><a href="contact.html"><span class="i i-mail"></span>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <button class="icon-btn" id="toggle-theme">🌙</button>
+      <button class="icon-btn" id="trash-btn">🗑️</button>
+    </div>
+  </aside>
+
+  <header class="topbar">
+    <button id="menu-toggle" class="icon-btn">☰</button>
+    <h2 id="mobile-title">Experience</h2>
+    <button id="mobile-theme-toggle" class="icon-btn">🌙</button>
+  </header>
+
+  <main>
+    <div class="app-window win-pop">
+      <div class="win-titlebar">
+        <div class="win-controls">
+          <span class="w-dot close"></span>
+          <span class="w-dot min"></span>
+          <span class="w-dot max"></span>
+        </div>
+        <div class="win-title">Experience</div>
+      </div>
+      <div class="win-body">
+        <div class="job">
+          <div class="job-head">
+            <img class="company-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/johndeere.svg" alt="John Deere" />
+            <div>
+              <h3>Post Graduate Engineering Trainee — John Deere</h3>
+              <p class="muted">Pune, India · Jul 2025 – Present</p>
+            </div>
+          </div>
+          <ul>
+            <li>Engineered and optimized end-to-end CV pipelines for real-time harvester yield estimation.</li>
+            <li>Deployed TensorRT-accelerated deep learning models targeting >83% field accuracy and ~7.5 FPS on edge devices.</li>
+            <li>Integrated multi-spectral camera systems with harvesters to enhance data acquisition and prediction quality.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <img class="company-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/johndeere.svg" alt="John Deere" />
+            <div>
+              <h3>CVML Intern — John Deere</h3>
+              <p class="muted">Pune, India · May 2024 – Jun 2025</p>
+            </div>
+          </div>
+          <ul>
+            <li>Developed image processing and statistical feature extraction for grain quality analysis across 12+ crop varieties; reduced false negatives by 23%.</li>
+            <li>Integrated vision system with onboard hardware and displays; improved harvester efficiency by ~18% over 1000+ validated field hours.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <img class="company-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tcs.svg" alt="TCS" />
+            <div>
+              <h3>Assistant System Engineer — Tata Consultancy Services</h3>
+              <p class="muted">Gandhinagar, India · Oct 2021 – Oct 2023</p>
+            </div>
+          </div>
+          <ul>
+            <li>Led optimization of HOBS automated billing for Telstra by reverse-engineering legacy code and re-architecting backend with Unix Shell & MSSQL.</li>
+            <li>Built SVM + LDA topic modeling pipeline for classifying telecom billing records, achieving 86% accuracy and cutting manual validation by 42%+.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-head">
+            <img class="company-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="Sparks Foundation" />
+            <div>
+              <h3>Data Science & Business Analytics Intern — The Sparks Foundation</h3>
+              <p class="muted">Remote · Dec 2020 – Jan 2021</p>
+            </div>
+          </div>
+          <ul>
+            <li>Implemented supervised & unsupervised ML models for business forecasting; comprehensive EDA to derive insights.</li>
+            <li>Received Letter of Recommendation for mentoring and technical leadership in GRIP.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal" id="trash-modal">
+    <div class="modal-content win-pop">
+      <div class="win-titlebar">
+        <div class="win-controls">
+          <button class="w-dot close" id="trash-close" aria-label="Close"></button>
+          <span class="w-dot min"></span>
+          <span class="w-dot max"></span>
+        </div>
+        <div class="win-title">Info</div>
+      </div>
+      <div class="modal-body">
+        <p>OS-style window with internal scrolling and close.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer dock">
+    <p>Connect with me</p>
+    <ul class="social-links">
+      <li><a href="https://github.com/AdityaK1211" class="social-tilt" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/adityak12/" class="social-tilt" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://orcid.org/0009-0003-2770-573X" class="social-tilt" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="https://leetcode.com/u/Adityak1211/" class="social-tilt" target="_blank" rel="noopener">LeetCode</a></li>
+      <li><a href="https://www.hackerrank.com/profile/adityakataria36" class="social-tilt" target="_blank" rel="noopener">HackerRank</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
